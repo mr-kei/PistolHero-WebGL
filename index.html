@@ -101,18 +101,19 @@
 
 
       } else {
-        // Desktop style: Keep the 1080x1920 game inside the browser viewport.
+        // Desktop style: Keep the 1080x1920 game inside the browser viewport with some margin.
 
         const targetAspect = 1080 / 1920;
+        const viewportScale = 0.88;
 
         function resizeCanvas() {
           const viewportWidth = window.innerWidth;
           const viewportHeight = window.innerHeight;
-          let width = viewportWidth;
+          let width = viewportWidth * viewportScale;
           let height = width / targetAspect;
 
-          if (height > viewportHeight) {
-            height = viewportHeight;
+          if (height > viewportHeight * viewportScale) {
+            height = viewportHeight * viewportScale;
             width = height * targetAspect;
           }
 
