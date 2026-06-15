@@ -9,3 +9,4 @@
 **VFX / Particles**
 * [Hyper Casual FX](https://assetstore.unity.com/packages/vfx/particles/hyper-casual-fx-200333) (Unity Asset Store)
 * [Blood Gush](https://assetstore.unity.com/packages/vfx/particles/blood-gush-73426) (Unity Asset Store)
+* [Free Stylized Smoke Effects Pack](https://assetstore.unity.com/packages/vfx/particles/fire-explosions/free-stylized-smoke-effects-pack-226406) (Unity Asset Store)
